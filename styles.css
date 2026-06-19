@@ -172,11 +172,11 @@ img {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 3.5rem 0;
 }
 
 .hero {
-  padding: 4.5rem 0 3rem;
+  padding: 3.5rem 0 2.25rem;
 }
 
 .hero-grid {
@@ -191,7 +191,6 @@ section {
 .section-panel,
 .organizer-card,
 .focus-card,
-.audience-card,
 .detail-card {
   border: 1px solid var(--line);
   background: var(--panel);
@@ -399,7 +398,6 @@ h1 {
 
 .story-grid,
 .focus-grid,
-.audience-grid,
 .detail-grid,
 .program-grid,
 .organizer-grid {
@@ -442,13 +440,15 @@ h1 {
 }
 
 .focus-grid,
-.audience-grid,
 .detail-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.detail-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .focus-card,
-.audience-card,
 .detail-card,
 .program-day,
 .organizer-card {
@@ -515,7 +515,6 @@ h1 {
 }
 
 .focus-card h3,
-.audience-card h3,
 .detail-card h3,
 .organizer-card h3 {
   font-size: 1.06rem;
@@ -524,7 +523,6 @@ h1 {
 }
 
 .focus-card p,
-.audience-card p,
 .detail-card p,
 .organizer-card p {
   color: var(--muted);
@@ -634,7 +632,6 @@ footer {
 @media (max-width: 980px) {
   .hero-grid,
   .focus-grid,
-  .audience-grid,
   .detail-grid,
   .program-grid,
   .organizer-grid {
@@ -653,16 +650,15 @@ footer {
 
 @media (max-width: 720px) {
   section {
-    padding: 3.8rem 0;
+    padding: 2.8rem 0;
   }
 
   .hero {
-    padding-top: 3.2rem;
+    padding-top: 2.6rem;
   }
 
   .hero-grid,
   .focus-grid,
-  .audience-grid,
   .detail-grid,
   .program-grid,
   .organizer-grid {
