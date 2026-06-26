@@ -1,2 +1,2 @@
-# e3a26
-Europe × Agent × AI × Engineering (E3A) workshop 2026
+# e4a26
+Europe × Agent × AI × Engineering (E4A) meeting 2026
