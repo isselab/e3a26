@@ -630,7 +630,7 @@ h1 {
 
 .partner-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -671,6 +671,36 @@ h1 {
   color: var(--text);
   font-size: 1.05rem;
   line-height: 1.2;
+}
+
+.partner-card-lab {
+  gap: 0.9rem;
+}
+
+.partner-logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.partner-logo-row img {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 0.7rem;
+  background: #fff;
+}
+
+.partner-logo-row strong {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.15;
+  text-align: left;
+}
+
+.partner-card .partner-wide-logo {
+  width: min(100%, 14rem);
+  max-height: 2.2rem;
 }
 
 footer {
